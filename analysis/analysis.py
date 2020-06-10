@@ -11,8 +11,7 @@ CHARACTERS = ['JERRY', 'ELAINE', 'KRAMER', 'GEORGE']
 
 
 def load_data():
-    df = pd.read_csv('../scraper/all_lines.csv')
-    return df
+    return pd.read_csv('../scraper/all_lines.csv')
 
 
 def count_lines(df):

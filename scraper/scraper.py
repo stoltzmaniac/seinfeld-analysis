@@ -33,8 +33,7 @@ def make_urls():
 
 def scrape_script(url):
     html = urlopen(url).read()
-    soup = BeautifulSoup(html)
-    return soup
+    return BeautifulSoup(html)
 
 
 def extract_lines(soup, character):
